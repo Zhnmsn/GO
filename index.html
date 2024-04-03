@@ -40,106 +40,53 @@
     </div>
     <div id="reserv">
     <form  action="https://jsonplaceholder.typicode.com/posts" method="post">
-        <table > 
-            <caption> <h3>Забронировать зал просто</h3></caption>
-            <thead>
-            <tr> 
-                <th colspan="4"><h3>Выбери зал </h3></th>      
-            </tr>
-            </thead>
-            <tr> 
-                <td><label><input  type="radio" name="hall" value="80's vibes"> 80's vibes</label> </td>
-                <td> <label><input type="radio" name="hall" value="star wars"> star wars</label> </td>
-                <td>  <label><input type="radio" name="hall" value="wild west"> wild west</label></td>
-                <td><label><input type="radio" name="hall" value="neon style"> neon style</label></td>
-            </tr>
+        
+            <h3>Забронировать зал просто</h3>
+                <fieldset>  <legend> Выбери зал</legend>     
+                <label><input  type="radio" name="hall" value="80's vibes"> 80's vibes</label> 
+                <label><input type="radio" name="hall" value="star wars"> star wars</label> 
+                <label><input type="radio" name="hall" value="wild west"> wild west</label>
+                <label><input type="radio" name="hall" value="neon style"> neon style</label>
+                </fieldset>
             
-        </table>
-        <table > 
-            <caption><h3>Собери набор развлечений</h3></caption>
-            <thead>
-            <tr> 
-                <th>Приставка</th> 
-                <th>Настольные игры</th> 
-                <th>Дополнительно</th>      
-            </tr>
-            </thead>
-            <tbody>
-            <tr> 
-                <td ><label ><input type="radio" name="console" value="PlayStation">PlayStation</label> </td>
-                <td> <label><input type="checkbox" name="Bgame" value="Jenga">Jenga</label> </td>
-                <td>  <label><input type="checkbox" name="Караоке" value="Караоке">Караоке</label></td>
-            </tr>
-            <tr> 
-                <td> <label><input type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive</label> </td>
-                <td> <label><input type="checkbox" name="Bgame" value="Monopoly">Monopoly</label> </td>
-                <td> <label><input type="checkbox" name="VR" value="VR">VR</label> </td>
-            </tr>
-            <tr> 
-                <td> <label><input type="radio" name="console" value="X-box One S">X-box One S</label></td>
-                <td> <label><input type="checkbox" name="Bgame" value="Манчкин">Манчкин</label></td>
-                <td> </td>
-            </tr>
-            <tr> 
-                <td>  <label><input type="radio" name="console" value="Dendy">Dendy</label></td>
-                <td> <label><input type="checkbox" name="Bgame" value="Alias">Alias</label></td>
-                <td> </td>
-            </tr>
-            </tbody>
-        </table>
-        <table > 
-            <caption><h3>Выбери дату и время</h3></caption>
-            <thead>
-            <tr> 
-                <th> <small>Дата</small></th>
-                <th> <small>Время</small></th>
-                <th> <small>Имя</small></th>
-                <th> <small>Телефон</small></th>
-            </tr>
-            </thead>
-            <tbody> 
-            <tr> 
-                <td> <input type="date" required style="margin: 3px;"></td>
-                <td><input type="time" required style="margin: 3px;"></td>
-                <td><input type="text" name="name" maxlength="12" required style="margin: 3px;" placeholder="Имя"></td>
-                <td><input type="tel" name="tel" style="margin: 3px;" placeholder="+7-999-999-99-99" required pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" ></td>
-            </tr>
-            <tr> 
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr> 
-                <td colspan="2">
-                    <select name="number of people" required >
+            <fieldset> 
+                <legend>Собери набор развлечений</legend>
+                <fieldset>
+                    <legend> Приставка</legend>
+                    <label ><input type="radio" name="console" value="PlayStation">PlayStation</label> 
+                    <label><input type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive</label> 
+                    <label><input type="radio" name="console" value="X-box One S">X-box One S</label>
+                    <label><input type="radio" name="console" value="Dendy">Dendy</label>
+                </fieldset>
+                <fieldset> <legend> Настольные игры</legend>
+                    <label><input type="checkbox" name="Bgame" value="Jenga">Jenga</label> 
+                    <label><input type="checkbox" name="Bgame" value="Monopoly">Monopoly</label> 
+                    <label><input type="checkbox" name="Bgame" value="Манчкин">Манчкин</label>
+                    <label><input type="checkbox" name="Bgame" value="Alias">Alias</label>
+                </fieldset>
+                <fieldset> <legend> Дополнительно</legend>
+                    <label><input type="checkbox" name="Караоке" value="Караоке">Караоке</label>
+                    <label><input type="checkbox" name="VR" value="VR">VR</label> 
+                </fieldset>  
+                <fieldset> <legend> Выбери дату и время</legend>       
+                    <input type="date" required style="margin: 3px;">
+                    <input type="time" required style="margin: 3px;">
+                    <input type="text" name="name" maxlength="12" required style="margin: 3px;" placeholder="Имя">
+                    <input type="tel" name="tel" style="margin: 3px;" placeholder="+7-999-999-99-99" required pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" >
+                <select name="number of people" required >
                     <option disabled selected hidden value="">Сколько гостей</option>  
                     <option value="1"> 1 гость</option>
                     <option value="2"> 2 гостя</option>
                     <option value="3"> 3 гостя</option>
                     <option value="4"> 4 гостя</option>
                     <option value="5"> 5 гостей</option>
-                </select></td>
-                
-                <td> <input type="text" name="surname" maxlength="12" required placeholder="Фамилия"></td>
-                <td><input type="email" name="email" placeholder="email" required></td>
-                
-            </tr>
-            <tr> 
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
-            <tr> 
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> <button type="submit">Забронировать </button></td>
-            </tr>
-            </tbody>
-            </table>
-    </form>
+                </select>
+                <input type="text" name="surname" maxlength="12" required placeholder="Фамилия">
+                <input type="email" name="email" placeholder="email" required>
+                <button type="submit">Забронировать </button>
+                </fieldset>
+            </fieldset>
+            </form>
     </div>
     <div id="about">
     <h3>О нас</h3>  
@@ -149,26 +96,30 @@
     <cite><em>Аркадий Абакшин, создатель игровой территории GAME OVER</em> </cite></blockquote>
     </div>
     <div id="review">
-    <table>
-        <caption> <h3> Отзывы посететилей</h3></caption>
-        <tbody> 
-        <tr> 
-            <td>   </td>
-            <td> <img src="img/man1.jpg" alt="Фото мужчины, которому очень понравилось у нас" width="200" height="200" ><br> Андрей Лисовец </td>
-            <td>Были с друзьями в зале wild west, очень понравилось, окунулись с головой в мир дикого запада. </td>
-        </tr>  
-        <tr>
-            <td>   </td> 
-            <td> <img src="img/man2.jpg" alt="Фото мужчины, которому очень понравилось у нас" width="200" height="200"> <br>Всеволод Елистратов </td>
-            <td> Великолептный VR, если думаете, что найдете в городе лучше, ошибаетесь. Очень рекомендую.</td>
-        </tr> 
-        <tr> 
-            <td>  </td>
-            <td> <img src="img/man3.png" alt="Фото мужчины, которому очень понравилось у нас" width="200" height="200"><br> Сергей Иванов </td>
-            <td> Пели в караоке, поиграли в Jenga и Monopoly. Вполне уютно, по домашнему, 5 баллов.</td>
-        </tr> 
-        </tbody>  
-    </table>
+            <h3> Отзывы посетителей</h3>
+            <ul> 
+                <li>  
+                    <figure>             
+                    <img src="img/man1.jpg" alt="Фото мужчины, которому очень понравилось у нас" width="200" height="200" > 
+                    Были с друзьями в зале wild west, очень понравилось, окунулись с головой в мир дикого запада.
+                    <figcaption>Андрей Лисовец </figcaption>  
+                    </figure>
+                </li>
+                <li> 
+                    <figure>
+                <img src="img/man2.jpg" alt="Фото мужчины, которому очень понравилось у нас" width="200" height="200"> 
+                Великолептный VR, если думаете, что найдете в городе лучше, ошибаетесь. Очень рекомендую.
+                <figcaption>Всеволод Елистратов </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure> 
+                <img src="img/man3.png" alt="Фото мужчины, которому очень понравилось у нас" width="200" height="200"> 
+                Пели в караоке, поиграли в Jenga и Monopoly. Вполне уютно, по домашнему, 5 баллов.
+                <figcaption>Сергей Иванов </figcaption> 
+                    </figure>
+                </li>
+            </ul>
     </div>
 </main>
 <footer>  
