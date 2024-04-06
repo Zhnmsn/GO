@@ -13,3 +13,29 @@
         padding: 30px;
         margin: 0 auto;
     }
+    .question {
+        background-color: #fff;
+        color: #1C1A1A;
+        font-weight: 700;
+        font-size: 24px;
+        padding: 30px 70px;
+        margin-bottom: 20px;
+    }
+    .questions :nth-child(even) {
+        color: white;
+        background-color:  #440F51;
+        content: "";
+        display: block;
+        background-size: 4%;
+        background-image: url("img/open.svg") ;
+        background-repeat: no-repeat;
+        background-position: 95%;
+    }
+    .questions :nth-child(odd) {
+        content: "";
+        background-image: url("img/open-purple.svg") ;
+        background-repeat: no-repeat;
+        background-position: 95%;
+        background-size: 4%;
+    }
+
