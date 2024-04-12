@@ -5,9 +5,7 @@
         background-color: #1B1A1B;
         color: #FFFFFF;
     }
-    blockquote {
-        text-transform: uppercase;
-    }
+
     .wrapper {
         width: 1200px;
         padding: 30px;
@@ -39,3 +37,146 @@
         background-size: 4%;
     }
 
+.our-halls {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+.wrap div{
+    margin-bottom: 50px;
+}
+
+.star-wars-hall {
+    height: 500px;
+    background-image: url("img/star-wars.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.vibe {
+    display: block;
+    position: relative;
+    width: 50px;
+    padding-left: 500px;
+    padding-top: 175px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.audio-hall {
+    height: 500px;
+    background-image: url("img/audiohall.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.wild-west-hall {
+    height: 500px;
+    background-image: url("img/wild-west.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.neon-hall {
+    height: 500px;
+    background-image: url("img/neon.jpg");
+    background-size: cover;
+}
+
+.banner {
+    position: relative;
+    height: 800px;
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 600px ;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.logo {
+    display: block;
+    position: relative;
+    font-size: 120px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-left: 24px;
+    bottom: 72px;
+    left: 50px;
+}
+
+.logo-small {
+    display: block; 
+    position: relative;
+    padding-left: 160px;
+    bottom: 190px;
+    font-size: 22px;
+}
+
+.cite {
+    display: block;
+    font-size: 40px;
+    font-family: sans-serif;
+    white-space: pre-wrap;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.cite span {
+    color: #6C0287;
+    
+}
+
+.author {
+    display: block;
+    position: relative;
+    width: 220px;
+    height: 100px;
+    left: 840px;
+    bottom: 50px;
+    font-size: 18px;
+}
+
+.ava {
+    background-image: url("img/avatar.png");
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    display: block;
+    left: 730px;
+    top: 30px;
+}
+
+.our-contact li{
+    list-style: none;
+    display: block;
+    padding-left: 38px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 3px;
+    font-size: 18px;
+}
+
+.locate {
+    background-image: url("img/location.png");
+}
+
+.phone {
+    background-image: url("img/phone-call.png");
+}
+
+.mail {
+    background-image: url("img/mail.png");
+}
+
+.img-svg {
+    padding-left: 15px;
+    
+}
+.img-svg svg {
+    margin-left: 15px;
+}
