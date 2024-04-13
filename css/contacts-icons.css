@@ -1,0 +1,40 @@
+.our-contact li{
+    list-style: none;
+    display: block;
+    padding-left: 38px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 3px;
+    font-size: 18px;
+}
+
+.locate {
+    background-image: url("../img/icons-png/location.png");
+}
+
+.phone {
+    background-image: url("../img/icons-png/phone-call.png");
+}
+
+.mail {
+    background-image: url("../img/icons-png/mail.png");
+}
+
+.img-svg {
+    padding-left: 25px;
+    
+}
+
+.img-svg li {
+    list-style: none;
+    display: inline-block;
+}
+
+.img-svg svg {
+    margin-left: 15px;
+}
+
+.our-contact a {
+    text-decoration: none;
+    color: white;
+}

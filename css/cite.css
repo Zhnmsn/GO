@@ -1,0 +1,37 @@
+.cite {
+    display: block;
+    font-size: 44px;
+    white-space: pre-wrap;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.cite span {
+    color: #6C0287;
+    
+}
+
+.author {
+    display: block;
+    position: relative;
+    width: 220px;
+    height: 100px;
+    left: 840px;
+    bottom: 50px;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.ava {
+    background-image: url("../img/icons-png/avatar-founder.png");
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    display: block;
+    left: 730px;
+    top: 30px;
+}

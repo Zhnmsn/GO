@@ -1,0 +1,49 @@
+.our-halls {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.wrap div{
+    margin-bottom: 50px;
+}
+
+.wrap li {
+    list-style: none;
+}
+
+.star-wars-hall {
+    height: 700px;
+    background-image: url("../img/star-wars-hall.jpg");
+    background-size: cover;
+}
+
+.vibe {
+    display: block;
+    position: relative;
+    width: 50px;
+    padding-left: 480px;
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.audio-hall {
+    height: 700px;
+    background-image: url("../img/80s-vibes-hall.jpg");
+    background-size: cover;
+}
+
+.wild-west-hall {
+    height: 700px;
+    background-image: url("../img/wild-west-hall.jpg");
+    background-size: cover;
+}
+
+.neon-hall {
+    height: 700px;
+    background-image: url("../img/neon-hall.jpg");
+    background-size: cover;
+}
