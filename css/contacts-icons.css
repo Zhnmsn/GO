@@ -1,5 +1,4 @@
 .our-contact li{
-    list-style: none;
     display: block;
     padding-left: 38px;
     background-size: 20px 20px;
@@ -22,19 +21,17 @@
 
 .img-svg {
     padding-left: 25px;
-    
+    display: flex;
 }
 
 .img-svg li {
-    list-style: none;
-    display: inline-block;
+    column-gap: 15px;
 }
 
 .img-svg svg {
     margin-left: 15px;
 }
 
-.our-contact a {
-    text-decoration: none;
-    color: white;
+.locate p {
+    white-space: pre-wrap;
 }

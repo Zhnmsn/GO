@@ -6,6 +6,7 @@
     padding: 30px 70px;
     margin-bottom: 20px;
 }
+
 .questions :nth-child(even) {
     color: white;
     background-color:  #440F51;
@@ -16,6 +17,7 @@
     background-repeat: no-repeat;
     background-position: 95%;
 }
+
 .questions :nth-child(odd) {
     content: "";
     background-image: url("../img/icons-svg/circle-purple.svg") ;
