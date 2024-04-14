@@ -20,16 +20,8 @@
 }
 
 .img-svg {
-    padding-left: 25px;
     display: flex;
-}
-
-.img-svg li {
-    column-gap: 15px;
-}
-
-.img-svg svg {
-    margin-left: 15px;
+    column-gap: 20px;
 }
 
 .locate p {

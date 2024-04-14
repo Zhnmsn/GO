@@ -16,7 +16,7 @@
     </section>
     <section>
     <h1 class="our-halls"> Наши залы</h1>
-    <ul class="wrap"> 
+    <ul class="halls-list"> 
                 <li class="audio-hall"> 
                     <a class="vibe" href="#"> 80's vibes</a>
                 </li>
@@ -60,24 +60,20 @@
                     <label><input type="checkbox" name="karaoke" value="Караоке">Караоке</label>
                     <label><input type="checkbox" name="VR" value="VR">VR</label> 
                 </fieldset>  
-                <fieldset> <legend> Выбери дату и время</legend>       
-                    <input type="date" required>
-                    <input type="time" required>
-                    <input type="text" name="name" maxlength="12" required placeholder="Имя">
-                    <input type="tel" name="tel" placeholder="+7-999-999-99-99" required pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" >
-                <select name="number of people" required >
-                    <option disabled selected hidden value="">Сколько гостей</option>  
-                    <option value="1"> 1 гость</option>
-                    <option value="2"> 2 гостя</option>
-                    <option value="3"> 3 гостя</option>
-                    <option value="4"> 4 гостя</option>
-                    <option value="5"> 5 гостей</option>
-                </select>
-                <input type="text" name="surname" maxlength="12" required placeholder="Фамилия">
-                <input type="email" name="email" placeholder="email" required>
-                <button type="submit">Забронировать </button>
-                </fieldset>
             </fieldset>
+                <fieldset> <legend> Выбери дату и время</legend>       
+                    
+                    Дата*<input type="date" required>Время*<input type="time" required>
+                    Количетсво человек*<input type="number" name="number of people" max="10" required>
+                    Имя*<input type="text" name="name" maxlength="12" required><br>
+                    Фамилия*<input type="text" name="surname" maxlength="12" required>
+                    Номер телеофна*<input type="tel" name="tel" placeholder="+7-999-999-99-99" required pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
+                    <input type="checkbox" name="older 18" value="yes"> Я старше 18 лет
+                </fieldset>
+                <button type="submit">Забронировать </button>
+                <input type="checkbox" name="agree processing of data" value="yes" required>Согласен на обработку данных
+                </fieldset>
+            
             </form>
     </section>
     <section>
@@ -85,8 +81,8 @@
         <p class="text">Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
         <p class="text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.  </p>
     
-        <blockquote>  <p class="cite"> <span>&ldquo;</span> GAME OVER &mdash;
-   это место  незабываемых впечатлений <span>&rdquo; </span></p> 
+        <blockquote>  <p class="cite"> <span>&ldquo;</span>GAME OVER &mdash;
+  это место  незабываемых впечатлений<span>&rdquo;</span></p> 
         <div class="ava"></div> 
         <cite class="author">Аркадий Абакшин, создатель игровой территории GAME OVER </cite></blockquote>
     </section>
