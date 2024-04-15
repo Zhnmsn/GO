@@ -3,7 +3,7 @@ html {
     box-sizing: border-box;
 }
 
-  *,
+*,
 *::before,
 *::after {
     box-sizing: inherit;
@@ -17,8 +17,18 @@ body {
     background-color: #1B1A1B;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-    width: 1200px;
-    padding: 30px;
+}
+
+.footer__title, .faq__title, .about__title, .halls__title, .reserve__title {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1180px;
     margin: 0 auto;
 }
 

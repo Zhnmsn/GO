@@ -8,20 +8,28 @@
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.logo {
-    display: block;
-    position: relative;
-    font-size: 120px;
-    font-weight: 900;
-    padding-left: 24px;
-    top: 65px;
-    left: 40px;
+.banner-section {
+    padding-bottom: 50px;
 }
 
-.logo-small {
+.banner__logo {
+    display: block;
+    position: relative;
+    font-size: 130px;
+    font-weight: 900;
+    padding-left: 30px;
+    top: 65px;
+}
+
+.banner__logo-small {
     display: block; 
     position: relative;
-    padding-left: 160px;
+    padding-left: 140px;
     top: 70px;
-    font-size: 22px;
+    font-size: 28px;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
 }
