@@ -1,4 +1,4 @@
-.contacts li{
+.footer__contacts li{
     display: block;
     padding-left: 60px;
     background-size: 32px 35px;
@@ -8,32 +8,32 @@
     margin-bottom: 10px;
 }
 
-.contacts li:nth-child(odd){
+.footer__contacts li:nth-child(odd){
     margin-bottom: 50px;
 }
 
-.locate {
+.footer__locate {
     background-image: url("../img/icons-png/location.png");
 }
 
-.phone {
+.footer__phone {
     background-image: url("../img/icons-png/phone-call.png");
 }
 
-.mail {
+.footer__mail {
     background-image: url("../img/icons-png/mail.png");
 }
 
-.icons {
+.footer__icons {
     display: flex;
     column-gap: 20px;
     padding-bottom: 35px;
 }
 
-.locate p {
+.footer__locate p {
     white-space: pre-wrap;
 }
 
-.address {
+.footer__address {
     font-style: normal; 
 }
