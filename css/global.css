@@ -19,6 +19,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.main-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -27,18 +33,17 @@ body {
 .footer__title, .faq__title, .about__title, .halls__title, .reserve__title {
     display: block;
     text-align: center;
-    font-size: 40px;
+    font-size: 48px;
     text-transform: uppercase;
-    margin-top: 30px;
+}
+
+section:not(:first-child) {
+    padding: 90px 0;
 }
 
 .container {
     max-width: 1180px;
     margin: 0 auto;
-}
-
-section {
-    padding: 0 10px 0 10px;
 }
 
 img, svg {
@@ -61,12 +66,12 @@ ul {
     margin: 0;
 }
 
-h1, h2, h3, p, figure, fieldset {
+h1, h2, h3, p, figure, fieldset, blockquote {
     margin: 0;
 }
 
 h1, h2, h3 {
-    padding: 30px 0 30px 0;
+    margin-bottom: 60px;
 }
 
 

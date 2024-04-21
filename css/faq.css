@@ -1,8 +1,9 @@
 .question {
     background-color: #fff;
     color: #1C1A1A;
-    font-weight: 700;
     font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
     padding: 30px 70px;
     margin-bottom: 20px;
 }

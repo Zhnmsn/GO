@@ -9,9 +9,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 211px;
+    max-width: 500px;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 78px;
     text-transform: uppercase;
     text-align: center;
 }
