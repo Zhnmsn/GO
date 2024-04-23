@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
-    <div class="main-container">
     <main>
         <section class="banner-section">
         <div class="container">
@@ -21,7 +20,9 @@
     
     <section class="halls">
         <div class="container">
-    <h1 class="halls__title"> Наши залы</h1>
+        <div class="container__title"> 
+            <h1 class="section__title section__halls_title"> Наши залы</h1>
+        </div>
     <ul class="halls__list"> 
                 <li class="halls__list audio-hall"> 
                     <a class="halls__link" href="#"> 80's vibes</a>
@@ -42,7 +43,7 @@
     
     <section class="reserve">
         <div class="container">
-        <h2 class="reserve__title">Забронировать</h2>
+        <h2 class="section__title section__reserve_title">Забронировать</h2>
             <form class="reserve__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
                 <fieldset class="reserve__hall">  <legend> Выбери зал</legend>     
                 <label><input class="reserve__hall_input" type="radio" name="hall" value="80's vibes"> 80's vibes</label> 
@@ -89,17 +90,37 @@
     
     <section class="about">
         <div class="container">
-        <h2 class="about__title">О нас</h2>  
-        <img class="collage" src="img/about_collage.jpg" alt="collage">
-        <ul class="about__text_block"> 
-            <li> <p class="about__text1">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p> </li>
-            <li class="about__ptext">  <p class="about__text2">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.  </p></li>
-            <li class="about__blcite">  <blockquote class="about__cite"><p> GAME OVER &mdash; это место  незабываемых впечатлений </p> </blockquote> </li>
-            <li>  <figure class="about__avatar"> <img src="img/icons-png/avatar-founder.png" alt="founder" >
-        <figcaption class="about__founder">Аркадий Абакшин, создатель игровой территории GAME OVER  </figcaption> 
-                    </figure> </li>
-        </ul>
-        </div> 
+            <h2 class="section__title section__title_about">
+                О нас
+            </h2>
+            <div class="about__wrapper">
+                <img class="about__image" src="img/about_collage.jpg" alt="collage" width="600" height="596">
+                <div class="about__info">
+                    <p class="about__description">
+                        Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности
+                        в центральной части города.
+                    </p>
+                    <p class="about__description">
+                        Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас
+                        топовыми игровыми разработками со всего мира.
+                    </p>
+                    <blockquote class="about__blockquote">
+                        <q class="quote">
+                            <b>Game Over</b>
+                            &mdash;это место незабываемых впечатлений
+                        </q>
+                    </blockquote>
+                    <figure class="owner">
+                        <img class="owner__avatar" width="80" height="80" src="img/icons-png/avatar-founder.png"
+                                alt="founder">
+                        <figcaption class="owner__description">
+                            Аркадий Абакшин, создатель игровой территории <span class="owner__description__uppercase">game over</span>
+                        </figcaption>
+
+                    </figure>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -107,7 +128,7 @@
     
     <section class="faq">
         <div class="container">
-        <h2 class="faq__title"> Частые вопросы</h2>
+        <h2 class="section__title section__faq_title"> Частые вопросы</h2>
         <ul class="faq__questions"> 
                 <li class="question"> Можно ли забронировать комнату онлайн?</li>
                 <li class="question"> Могут ли мне вернуть деньги за бронь?</li>
@@ -121,11 +142,11 @@
 
 <footer class="footer">  
     <div class="container">
-    <h2 class="footer__title">Контакты</h2>
+    <h2 class="section__title section__footer_title">Контакты</h2>
     <address class="footer__address">
         <ul class="footer__contacts"> 
-            <li class="footer__locate"> <p>г. Москва 
-ул. Аквамарина, 16</p> </li>
+            <li class="footer__locate"> <span>г. Москва</span> 
+                        <span>ул. Аквамарина, 16</span> </li>
             <li class="footer__phone"> <a href="tel:89509302893">8(950)930-28-93</a> </li>
             <li class="footer__mail"> <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></li>
         </ul>
@@ -161,6 +182,5 @@
     </address>
 </div>
 </footer> 
-</div>
 </body>
 </html>

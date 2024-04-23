@@ -45,3 +45,13 @@
     background-image: url("../img/neon-hall.jpg");
     background-size: cover;
 }
+
+.section__halls_title {
+    height: 116px;
+    width: 980px;
+    margin-bottom: 0;
+    display: inline-block ;
+}
+.container__title {
+    text-align: center;
+}
