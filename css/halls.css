@@ -11,14 +11,14 @@
     
 }
 
-.fl {
+.section__halls {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 20px;
 }
-.one {
+.section__halls_one {
     text-align: center;
     height: 349px;
     width: 580px;
@@ -28,7 +28,7 @@
     
 }
 
-.three {
+.section__halls_three {
     display: inline-block;
     height: 349px;
     width: 580px;
@@ -37,7 +37,7 @@
     text-align: center;
 }
 
-.four {
+.section__halls_four {
     display: inline-block;
     height: 349px;
     width: 580px;
@@ -46,7 +46,7 @@
     text-align: center;
 }
 
-.two {
+.section__halls_two {
     display: inline-block;
     height: 349px;
     width: 580px;
@@ -62,6 +62,4 @@
     margin-bottom: 40px;
     display: inline-block ;
 }
-.container__title {
-    text-align: center;
-}
+
