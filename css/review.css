@@ -1,0 +1,32 @@
+.section__img {
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.section__img_photo {
+    margin-bottom: 11px;
+}
+
+.section_text {
+    width: 680px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 52px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.section__caption {
+    width: 280px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    
+}
+
+.sector__review li:not(:last-child) {
+    margin-bottom: 50px;
+}

@@ -1,55 +1,65 @@
-.star-wars-hall {
-    height: 700px;
-    background-image: url("../img/star-wars-hall.jpg");
-    background-size: cover;
-}
 
 .halls__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 500px;
+    display: inline-block;
+    position: relative;
+    max-width: 450px;
     font-weight: 700;
-    font-size: 78px;
+    font-size: 70px;
     text-transform: uppercase;
+    line-height: 80px;
+    top: 39%;
+    
+}
+
+.fl {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.one {
+    text-align: center;
+    height: 349px;
+    width: 580px;
+    background-image: url("../img/80s-vibes-hall.jpg");
+    background-size: cover;
+    
+    
+}
+
+.three {
+    display: inline-block;
+    height: 349px;
+    width: 580px;
+    background-image: url("../img/wild-west-hall.jpg");
+    background-size: cover;
     text-align: center;
 }
 
-.halls__list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 60px;
-}
-
-.halls__list li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.audio-hall {
-    height: 700px;
-    background-image: url("../img/80s-vibes-hall.jpg");
-    background-size: cover;
-}
-
-.wild-west-hall {
-    height: 700px;
-    background-image: url("../img/wild-west-hall.jpg");
-    background-size: cover;
-}
-
-.neon-hall {
-    height: 700px;
+.four {
+    display: inline-block;
+    height: 349px;
+    width: 580px;
     background-image: url("../img/neon-hall.jpg");
     background-size: cover;
+    text-align: center;
 }
 
+.two {
+    display: inline-block;
+    height: 349px;
+    width: 580px;
+    background-image: url("../img/star-wars-hall.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+
 .section__halls_title {
-    height: 116px;
+    height: 56px;
     width: 980px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     display: inline-block ;
 }
 .container__title {
