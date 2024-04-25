@@ -1,6 +1,5 @@
 
 .halls__link {
-    display: inline-block;
     position: relative;
     max-width: 450px;
     font-weight: 700;
@@ -18,18 +17,16 @@
     row-gap: 20px;
     column-gap: 20px;
 }
+
 .section__halls_one {
     text-align: center;
     height: 349px;
     width: 580px;
     background-image: url("../img/80s-vibes-hall.jpg");
     background-size: cover;
-    
-    
 }
 
 .section__halls_three {
-    display: inline-block;
     height: 349px;
     width: 580px;
     background-image: url("../img/wild-west-hall.jpg");
@@ -38,7 +35,6 @@
 }
 
 .section__halls_four {
-    display: inline-block;
     height: 349px;
     width: 580px;
     background-image: url("../img/neon-hall.jpg");
@@ -47,7 +43,6 @@
 }
 
 .section__halls_two {
-    display: inline-block;
     height: 349px;
     width: 580px;
     background-image: url("../img/star-wars-hall.jpg");
@@ -57,9 +52,8 @@
 
 
 .section__halls_title {
-    height: 56px;
-    width: 980px;
+   
     margin-bottom: 40px;
-    display: inline-block ;
+    text-align: center;
 }
 

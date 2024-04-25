@@ -1,24 +1,24 @@
-.section__img {
+.review__img {
     padding-left: 100px;
 }
 
-.section__img_photo {
+.review__img_photo {
     margin-bottom: 11px;
 }
 
-.section_text {
+.review_text {
     width: 680px;
     display: inline-block;
     position: relative;
     vertical-align: top;
-    top: 52px;
+    padding-top: 52px;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     margin-left: 20px;
 }
 
-.section__caption {
+.review__caption {
     width: 280px;
     font-size: 20px;
     font-weight: 400;
@@ -26,6 +26,6 @@
     text-align: center;
 }
 
-.sector__review li:not(:last-child) {
+.review__list li:not(:last-child) {
     margin-bottom: 50px;
 }
