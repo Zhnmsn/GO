@@ -1,9 +1,177 @@
 .reserve__form {
-    position: relative;
-    max-width: 1140px;
-    left: 20px;
+    max-width: 1440px;
 }
 
 .section__reserve_title {
     margin-bottom: 50px;
 }
+
+.reserve {
+    background-color: rgb(68, 15, 81);
+    padding-top: 100px;
+}
+
+.reserve__container {
+    width: 1180px;
+}
+
+.reserve__hall {
+    display: flex;
+    width: 1440px;
+    height: 123px;
+    border: none;
+    justify-content: space-between;
+}
+
+.reserve__hall legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.reserve__hall_input {
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.reserve__wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reserve__Play {
+    display: inline-flex;
+}
+
+.reserve__console, .reserve__board-game, .reserve__other, .reserve__nabor {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.reserve__nabor legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+.reserve__console label {
+    margin-bottom: 10px;
+}
+.reserve__board-game label {
+    margin-bottom: 10px;
+}
+.reserve__other label {
+    margin-bottom: 10px;
+}
+
+.reserve__form label {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.reserve__console_input, .reserve__other_input, .reserve__board-game_input {
+    margin-right: 12px;
+}
+.reserve_button {
+    text-align: end;
+}
+
+.block1, .block2, .block3 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.block1, .block2 {
+    margin-right: 50px;
+}
+
+.block1 {
+    padding-top: 12px;
+}
+.reserve__date {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    align-items: center;
+}
+
+.reserve__date legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.date1, .date2 {
+    width: 134px;
+    height: 52px;    
+}
+
+.people {
+    width: 300px;
+    height: 52px; 
+}
+
+.block2 input {
+    width: 280px;
+    height: 52px; 
+}
+.block3 input {
+    width: 300px;
+    height: 52px; 
+}
+.block2_name, .block3_tel {
+    margin-bottom: 14px;
+}
+
+
+.reserve_button button {
+    width: 300px;
+    height: 60px; 
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(108, 2, 135);
+    text-transform: uppercase;
+}
+.reserve_button {
+    max-width: 1220px;
+    padding-top: 40px;
+}
+
+
+.reserve__date-wrap {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.block2 p, .block3 p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.date1 {
+    margin-right: 32px;
+}
+
+.d {
+    margin-bottom: 36px;
+}
+

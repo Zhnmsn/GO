@@ -7,6 +7,7 @@
     background-size: 675px 762px;
     border: 1px solid rgba(0, 0, 0, 0);
     bottom: 100px;
+    
 }
 
 .banner__logo {
@@ -30,4 +31,77 @@
 
 .banner-section {
     padding-top: 30px;
+}
+
+.banner__list {
+    display: flex;
+    height: 345px;
+    width: 410px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 149px;
+}
+
+.img1 {
+    width: 97px;
+    height: 97px;
+    align-self: flex-start;
+}
+
+.banner__button {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 374px;
+    height: 80px;
+    border-radius: 10px;
+    background: rgb(108, 2, 135);
+    color: white;
+    align-self: flex-end;
+    box-shadow: 1px 1px 22px rgba(108, 2, 135, 1);
+    border: none;
+}
+
+.div-img1 {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.list1__text1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 141px;
+    color: rgb(205, 6, 255);
+    text-align: center;
+}
+
+.list1__text2, .list1__text4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+}
+
+.list1__text3 {
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 106px;
+    color: rgb(205, 6, 255);
+
+}
+
+.list1 {
+    width: 193px;
+    height: 210px;
+    padding-top: 130px;
+}
+
+.list2 {
+    width: 171px;
+    height: 175px;
+    padding-top: 165px;
+    
+    
 }
