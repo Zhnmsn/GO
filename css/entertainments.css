@@ -1,0 +1,22 @@
+.entertainments__list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px 20px;
+}
+
+.entertainments__list img {
+    width: 380px;
+    height: 228px;
+}
+
+.entertainments__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 980px;
+    margin: 0 auto 40px auto;
+}
+
+.entertainments__list {
+    justify-content: center;
+}

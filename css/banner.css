@@ -1,12 +1,17 @@
-.banner {
-    position: relative;
-    height: 800px;
-    background-image: url("../img/banner.png");
+
+.banner-section::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/banner.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 675px 762px;
-    border: 1px solid rgba(0, 0, 0, 0);
-    bottom: 100px;
+    width: 675px;
+    height: 762px;
+    top: 240px;
+    right: 40px;
+}
+
+.banner__two-logo {
+    margin-bottom: 100px;
 }
 
 .banner__logo {
@@ -14,7 +19,6 @@
     position: relative;
     font-size: 150px;
     font-weight: 900;
-    top: 50px;
     letter-spacing: -15px;
 }
 
@@ -22,12 +26,81 @@
     display: block; 
     position: relative;
     padding-left: 105px;
-    top: 140px;
     font-size: 28px;
     font-weight: 400;
     line-height: 50px;
 }
 
 .banner-section {
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+.banner__list {
+    display: flex;
+    height: 345px;
+    width: 410px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    left: 580px;
+    top: 810px;
+    z-index: 1;
+}
+
+.banner__button {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 374px;
+    height: 80px;
+    border-radius: 10px;
+    background: rgb(108, 2, 135);
+    color: white;
+    align-self: flex-end;
+    box-shadow: 1px 1px 22px rgba(108, 2, 135, 1);
+    border: none;
+}
+
+.list1__text1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 141px;
+    color: rgb(205, 6, 255);
+    text-align: center;
+}
+
+.list1__text2, .list2__text4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+}
+
+.list2__text3 {
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 106px;
+    color: rgb(205, 6, 255);
+}
+
+.list1 {
+    width: 193px;
+    height: 210px;
+}
+
+.list2 {
+    width: 171px;
+    height: 210px;
+    padding-top: 35px;
+}
+
+
+.banner-section {
+    margin-bottom: 150px;
 }

@@ -1,9 +1,183 @@
 .reserve__form {
-    position: relative;
-    max-width: 1140px;
-    left: 20px;
+    max-width: 1440px;
 }
 
 .section__reserve_title {
     margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
 }
+
+#reserve {
+    background-color: rgb(68, 15, 81);
+    padding-top: 100px;
+}
+
+.reserve__container {
+    width: 1180px;
+}
+
+.reserve__hall {
+    display: flex;
+    width: 1180px;
+    height: 123px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.reserve__hall legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.reserve__hall_input {
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.reserve__wrap {
+    display: flex;
+    justify-content: space-around;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.reserve__Play {
+    display: inline-flex;
+}
+
+.reserve__console, .reserve__board-game, .reserve__other, .reserve__nabor {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.reserve__nabor legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+.reserve__console label {
+    margin-bottom: 10px;
+}
+.reserve__board-game label {
+    margin-bottom: 10px;
+}
+.reserve__other label {
+    margin-bottom: 10px;
+}
+
+.reserve__form label {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.reserve__console_input, .reserve__other_input, .reserve__board-game_input {
+    margin-right: 12px;
+}
+.reserve__button {
+    display: flex;
+    justify-content: end;
+    max-width: 1220px;
+    padding-top: 40px;
+}
+
+.reserve__block1, .reserve__block2, .reserve__block3 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.reserve__block1, .reserve__block2 {
+    margin-right: 50px;
+}
+
+.reserve__block1 {
+    padding-top: 16px;
+}
+.reserve__date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 990px;
+    margin: 0 auto;
+    
+}
+
+.reserve__date legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+.block1__date1, .block1__date2 {
+    width: 134px;
+    height: 52px;    
+}
+
+.block1__people {
+    width: 300px;
+    height: 52px; 
+}
+
+.reserve__block2 input {
+    width: 280px;
+    height: 52px; 
+}
+.reserve__block3 input {
+    width: 300px;
+    height: 52px; 
+}
+.block2__name, .block3__tel {
+    margin-bottom: 14px;
+}
+
+
+.reserve__button button {
+    width: 300px;
+    height: 60px; 
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(108, 2, 135);
+    text-transform: uppercase;
+    border: none;
+}
+
+.reserve__date-wrap {
+    width: 1440px;
+    border: 1px solid green;
+margin: 0 auto;
+}
+
+.reserve__block2 p, .reserve__block3 p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.block1__date1 {
+    margin-right: 30px;
+}
+
+.block1__date{
+    margin-bottom: 30px;
+}
+

@@ -68,3 +68,7 @@
 .owner__description__uppercase {
     text-transform: uppercase;
 }
+
+#about {
+    padding-top: 50px;
+}

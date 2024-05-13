@@ -52,8 +52,10 @@
 
 
 .section__halls_title {
-   
     margin-bottom: 40px;
     text-align: center;
 }
 
+#halls div {
+    justify-content: center;
+}
