@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     width: 675px;
     height: 762px;
-    top: 240px;
+    top: 210px;
     right: 40px;
 }
 
@@ -20,6 +20,7 @@
     font-size: 150px;
     font-weight: 900;
     letter-spacing: -15px;
+    margin-bottom: 0px;
 }
 
 .banner__logo-small {
@@ -32,7 +33,7 @@
 }
 
 .banner-section {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .banner__list {
@@ -41,14 +42,15 @@
     width: 410px;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 0px;
 }
 
 .img1 {
     width: 97px;
     height: 97px;
     position: absolute;
-    left: 580px;
-    top: 810px;
+    left: 570px;
+    top: 770px;
     z-index: 1;
 }
 
@@ -99,7 +101,6 @@
     height: 210px;
     padding-top: 35px;
 }
-
 
 .banner-section {
     margin-bottom: 150px;
