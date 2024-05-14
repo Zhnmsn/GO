@@ -1,20 +1,24 @@
 
-.banner-section::after {
+.banner-container {
+    position: relative;
+    height: 823px;
+}
+.banner-container:after {
     content: "";
     position: absolute;
-    background-image: url(../img/banner.png);
+    background-image: url(../img/icons-png/banner.png);
     background-repeat: no-repeat;
     width: 675px;
     height: 762px;
-    top: 210px;
-    right: 40px;
+    bottom: 0;
+    right: 0;
 }
 
 .banner__two-logo {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
-.banner__logo {
+.banner-info__title {
     display: block;
     position: relative;
     font-size: 150px;
@@ -23,7 +27,7 @@
     margin-bottom: 0px;
 }
 
-.banner__logo-small {
+.banner-info__subtitle {
     display: block; 
     position: relative;
     padding-left: 105px;
@@ -32,29 +36,18 @@
     line-height: 50px;
 }
 
-.banner-section {
-    padding-top: 30px;
-}
 
 .banner__list {
     display: flex;
-    height: 345px;
     width: 410px;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 0px;
+    margin-bottom: 150px;
 }
 
-.img1 {
-    width: 97px;
-    height: 97px;
-    position: absolute;
-    left: 570px;
-    top: 770px;
-    z-index: 1;
-}
 
 .banner__button {
+    display: block;
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
@@ -64,12 +57,14 @@
     border-radius: 10px;
     background: rgb(108, 2, 135);
     color: white;
-    align-self: flex-end;
+    text-align: center;
+    padding-top: 25px;
     box-shadow: 1px 1px 22px rgba(108, 2, 135, 1);
     border: none;
+    cursor: pointer;
 }
 
-.list1__text1 {
+.banner-column__text {
     font-size: 100px;
     font-weight: 900;
     line-height: 141px;
@@ -77,31 +72,40 @@
     text-align: center;
 }
 
-.list1__text2, .list2__text4{
+.banner-column__text-add, .banner-column-next__text-add{
     font-size: 30px;
     font-weight: 400;
     line-height: 34px;
     text-align: center;
 }
 
-.list2__text3 {
+.banner-column-next__text {
     font-size: 75px;
     font-weight: 900;
     line-height: 106px;
     color: rgb(205, 6, 255);
 }
 
-.list1 {
+.banner__list-column {
     width: 193px;
     height: 210px;
 }
 
-.list2 {
+.banner__list-column-next {
     width: 171px;
     height: 210px;
     padding-top: 35px;
 }
 
-.banner-section {
-    margin-bottom: 150px;
+
+.banner__arrow-link {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9999;
+}
+
+.arrow-link__image {
+    display: block;
 }

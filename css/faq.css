@@ -30,3 +30,7 @@
 .question:last-child {
     margin-bottom: 0;
 }
+
+.faq {
+    padding-bottom: 45px;
+}

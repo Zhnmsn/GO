@@ -1,9 +1,13 @@
+.reserve {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .reserve__form {
     max-width: 1440px;
 }
 
 .section__reserve_title {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -11,7 +15,6 @@
 
 #reserve {
     background-color: rgb(68, 15, 81);
-    padding-top: 100px;
 }
 
 .reserve__container {
@@ -52,17 +55,17 @@
     margin: 0 auto;
 }
 
-.reserve__Play {
+.reserve__play {
     display: inline-flex;
 }
 
-.reserve__console, .reserve__board-game, .reserve__other, .reserve__nabor {
+.reserve__console, .reserve__board-game, .reserve__other, .reserve__set {
     display: flex;
     flex-direction: column;
     border: none;
 }
 
-.reserve__nabor legend {
+.reserve__set legend {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -70,44 +73,20 @@
     margin-bottom: 30px;
     padding-top: 60px;
 }
-.reserve__console label {
+.reserve__console label:not(:last-child) {
     margin-bottom: 10px;
 }
-.reserve__board-game label {
+.reserve__board-game label:not(:last-child) {
     margin-bottom: 10px;
 }
-.reserve__other label {
+.reserve__other label:not(:last-child) {
     margin-bottom: 10px;
-}
-
-.reserve__form label {
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 25px;
 }
 
 .reserve__console_input, .reserve__other_input, .reserve__board-game_input {
     margin-right: 12px;
 }
-.reserve__button {
-    display: flex;
-    justify-content: end;
-    max-width: 1220px;
-    padding-top: 40px;
-}
 
-.reserve__block1, .reserve__block2, .reserve__block3 {
-    display: inline-flex;
-    flex-direction: column;
-}
-
-.reserve__block1, .reserve__block2 {
-    margin-right: 50px;
-}
-
-.reserve__block1 {
-    padding-top: 16px;
-}
 .reserve__date {
     display: flex;
     justify-content: space-between;
@@ -121,34 +100,13 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 38px;
     padding-top: 60px;
 }
 
-.block1__date1, .block1__date2 {
-    width: 134px;
-    height: 52px;    
-}
-
-.block1__people {
-    width: 300px;
-    height: 52px; 
-}
-
-.reserve__block2 input {
-    width: 280px;
-    height: 52px; 
-}
-.reserve__block3 input {
-    width: 300px;
-    height: 52px; 
-}
-.block2__name, .block3__tel {
-    margin-bottom: 14px;
-}
-
-
-.reserve__button button {
+.form__button {
+    display: inline-block;
+    position: relative;
     width: 300px;
     height: 60px; 
     border-radius: 10px;
@@ -158,26 +116,149 @@
     color: rgb(108, 2, 135);
     text-transform: uppercase;
     border: none;
+    background-color: var(--main-color);
+    left: 920px;
 }
 
 .reserve__date-wrap {
     width: 1440px;
     display: flex;
     justify-content: center;
-   
 }
 
-.reserve__block2 p, .reserve__block3 p {
-    font-size: 14px;
+
+/*==========================*/
+.radio {
+    display: none;
+}
+.rooms__label {
+    cursor: pointer;
+    height: 55px;
+    max-height: 55px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-color: var(--main-color);
+    color: var(--main-dark);
+    font-size: 30px;
     font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-basis: 250px;
+    justify-content: center;
+
+}
+.time {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.time__label {
+    font-weight: 700;
+    font-size: 14px;
     line-height: 16px;
+    display: block;
 }
 
-.block1__date1 {
-    margin-right: 30px;
+.time__input {
+    display: block;
 }
 
-.block1__date{
-    margin-bottom: 30px;
+.time__block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    margin-bottom: 40px;
 }
+
+.time__block_info {
+    max-width: 280px;
+    row-gap: 14px;
+}
+
+.time__block_contacts {
+    row-gap: 14px;
+}
+
+.time__label_name,
+.time__label_phone-number,
+.time__label_mail,
+.time__label_lastname {
+    margin-bottom: 6px;
+}
+
+.time__input_name,
+.time__input_lastname,
+.time__input_phone-number,
+.time__input_mail {
+    width: 100%;
+    height: 52px;
+}
+
+.time__block_date {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    align-self: flex-end;
+}
+
+.time__input_persons {
+    width: 100%;
+    height: 52px;
+}
+
+.time__input_time,
+.time__input_date {
+    height: 52px;
+    width: 134px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.time__input-row-group {
+    display: flex;
+    column-gap: 32px;
+}
+
+.time__input_date::-webkit-input-placeholder {
+    background-image: url(../img/icons-svg/triangle.svg);
+    background-position: center right;
+    width: 100%;
+    height: 23px;
+    content: "Дата";
+    display: block;
+    background-repeat: no-repeat;
+    color: var(--main-dark);
+}
+
+.time__input_time::-webkit-input-placeholder {
+    background-image: url(../img/icons-svg/triangle.svg);
+    background-position: center right;
+    width: 100%;
+    height: 23px;
+    content: "Время";
+    display: block;
+    background-repeat: no-repeat;
+    color: var(--main-dark);
+}
+
+.time__input_persons {
+    padding-left: 20px;
+    padding-right: 27px;
+}
+
+.time__input_persons {
+    background-image: url(../img/icons-svg/triangle.svg);
+    background-position: 270px;
+    width: 100%;
+    height: 52px;
+    display: block;
+    background-repeat: no-repeat;
+    color: var(--main-dark);
+    appearance: none;
+}
+
 
