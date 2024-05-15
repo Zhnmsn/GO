@@ -261,4 +261,44 @@
     appearance: none;
 }
 
+.rooms__label:hover {
+    background: #EADEED;
+    border: 3px solid #640AA3;
+}
 
+.rooms__label:active {
+    background: #6C0287;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.rooms__label:focus {
+    background: #FFFFFF;
+    border: 3px solid #640AA3;
+}
+
+.form__button:hover {
+    background: #EADEED;
+    border: 3px solid #6C0287;
+}
+
+.form__button:active {
+    background: #EADEED;
+    border: none;
+}
+
+.form__button:focus {
+    background: #FFFFFF;
+    border: 3px solid #6C0287;
+}
+
+.time__input_phone-number:focus {
+    outline: 2px solid rgb(205, 6, 255);
+}
+
+.reserve__console_input:focus,
+.reserve__board-game_input:focus,
+.reserve__other_input:focus,
+.time__input:focus {
+    outline: 2px solid rgb(205, 6, 255);
+}

@@ -17,6 +17,15 @@
     margin-left: auto;
 }
 
+.header__button:hover,  .header__button:focus {
+    background: var(--main-menu-bg);
+    border: none;
+}
+
+.header__button:active {
+    background: var(--main-purple);
+}
+
 .header__logo {
     margin-right: 96px;
 }
