@@ -79,3 +79,24 @@ footer {
 .footer {
     padding-top: 55px;
 }
+
+.footer__locate:hover,
+.footer__phone:hover,
+.footer__mail:hover,
+.sub_footer__text:hover {
+    color: var(--main-menu-bg);
+}
+
+.footer__icon-link:hover {
+    color: #EADEED;
+}
+
+.footer__icon-link:active {
+    color: #CD06FF;
+}
+
+.footer__icon-link:focus {
+    color: #EADEED;
+    outline: 1px solid #CD06FF;
+}
+
