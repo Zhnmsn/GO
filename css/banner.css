@@ -66,6 +66,7 @@
 
 .banner__button:hover, .banner__button:focus {
     background: rgb(132, 10, 163);
+    transition-delay: 0.3s;
 }
 
 .banner__button:active {
@@ -117,14 +118,17 @@
 
 .banner__arrow-link:hover {
     background-image: url("../img/icons-png/arrow-white.png");
+    transition-delay: 0.3s;
 }
 
 .banner__arrow-link:active {
     background-image: url("../img/icons-png/arrow-purple.png");
+    transition-delay: 0.3s;
 }
 
 .banner__arrow-link:focus {
-    outline: 1px solid rgb(205, 6, 255);;
+    outline: 1px solid rgb(205, 6, 255);
+    transition-delay: 0.3s;
 }
 .arrow-link__image {
     display: block;

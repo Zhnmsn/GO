@@ -20,6 +20,7 @@
 .header__button:hover,  .header__button:focus {
     background: var(--main-menu-bg);
     border: none;
+    transition-delay: 0.3s;
 }
 
 .header__button:active {
@@ -48,5 +49,6 @@
 
 .nav-list__link:hover {
     color: var(--main-menu-bg);
+    
 }
 

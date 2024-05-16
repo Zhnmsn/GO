@@ -21,10 +21,12 @@
 .faq__questions :nth-child(even):hover {
     background-image: url("../img/icons-png/open-hover.png");
     cursor: pointer;
+    transition-delay: 0.3s;
 }
 
 .faq__questions :nth-child(even):active {
     background-image: url("../img/icons-png/open-active-white.png");
+    transition-delay: 0.3s;
 }
 
 .faq__questions :nth-child(odd) {
@@ -38,10 +40,12 @@
 .faq__questions :nth-child(odd):hover {
     background-image: url("../img/icons-png/open-hover-purple.png");
     cursor: pointer;
+    transition-delay: 0.3s;
 }
 
 .faq__questions :nth-child(odd):active {
     background-image: url("../img/icons-png/open-active-purple.png");
+    transition-delay: 0.3s;
 }
 
 

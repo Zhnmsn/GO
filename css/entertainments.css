@@ -76,3 +76,8 @@
     padding-right: 40px;
     padding-bottom: 20px;
 }
+
+.entertainments--list__item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
