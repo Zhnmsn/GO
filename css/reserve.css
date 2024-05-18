@@ -264,26 +264,26 @@
 .rooms__label:hover {
     background: #EADEED;
     border: 3px solid #640AA3;
-    transition-delay: 0.3s;
+    transition: 0.3s ease;
 }
 
 .rooms__label:active {
     background: #6C0287;
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
-    transition-delay: 0.3s;
+    
 }
 
 .rooms__label:focus {
     background: #FFFFFF;
     border: 3px solid #640AA3;
-    transition-delay: 0.3s;
+    transition: 0.3s;
 }
 
 .form__button:hover {
     background: #EADEED;
     border: 3px solid #6C0287;
-    transition-delay: 0.3s;
+    transition: 0.3s ease;
 }
 
 .form__button:active {
@@ -294,12 +294,12 @@
 .form__button:focus {
     background: #FFFFFF;
     border: 3px solid #6C0287;
-    transition-delay: 0.3s;
+    
 }
 
 .time__input_phone-number:focus {
     outline: 2px solid rgb(205, 6, 255);
-    transition-delay: 0.3s;
+    
 }
 
 .reserve__console_input:focus,
@@ -307,5 +307,5 @@
 .reserve__other_input:focus,
 .time__input:focus {
     outline: 2px solid rgb(205, 6, 255);
-    transition-delay: 0.3s;
+    
 }

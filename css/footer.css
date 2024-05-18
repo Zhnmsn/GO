@@ -80,27 +80,27 @@ footer {
     padding-top: 55px;
 }
 
-.footer__locate:hover,
+
 .footer__phone:hover,
 .footer__mail:hover,
-.sub_footer__text:hover {
+.sub_footer__mail:hover {
     color: var(--main-menu-bg);
-    transition-delay: 0.3s;
+    transition: 0.3s ease;
 }
 
 .footer__icon-link:hover {
     color: #EADEED;
-    transition-delay: 0.3s;
+    transition: 0.3s ease;
 }
 
 .footer__icon-link:active {
     color: #CD06FF;
-    transition-delay: 0.3s;
+    
 }
 
 .footer__icon-link:focus {
     color: #EADEED;
     outline: 1px solid #CD06FF;
-    transition-delay: 0.3s;
+    
 }
 
