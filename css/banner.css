@@ -127,12 +127,10 @@
 
 .banner__arrow-link:active {
     background-image: url("../img/icons-png/arrow-purple.png");
-    
 }
 
 .banner__arrow-link:focus {
     outline: 1px solid rgb(205, 6, 255);
-    
 }
 .arrow-link__image {
     display: block;

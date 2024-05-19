@@ -94,13 +94,13 @@ footer {
 }
 
 .footer__icon-link:active {
-    color: #CD06FF;
+    color:  var(--main-purple-light);
     
 }
 
 .footer__icon-link:focus {
     color: #EADEED;
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--main-purple-light);
     
 }
 

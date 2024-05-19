@@ -81,3 +81,12 @@
     transform: scale(1.1);
     transition-duration: 0.2s;
 }
+
+
+.entertainments--list__item_audio,
+.entertainments--list__item_netflix {
+    transform: translateY(70px);
+}
+.entertainments {
+    padding-bottom: 120px;
+}
