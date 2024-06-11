@@ -38,42 +38,42 @@
 .entertainments--list__item_vr {
     background-image: url(../img/icons-png/VR.png);
     padding-left: 40px;
-    padding-right: 40px;
+    
     padding-bottom: 34px;
 }
 
 .entertainments--list__item_audio {
     background-image: url(../img/icons-png/audio-system.png);
     padding-left: 40px;
-    padding-right: 40px;
+    
     padding-bottom: 6px;
 }
 
 .entertainments--list__item_karaoke {
     background-image: url(../img/icons-png/karaoke.png);
     padding-left: 40px;
-    padding-right: 40px;
+    
     padding-bottom: 20px;
 }
 
 .entertainments--list__item_game {
     background-image: url(../img/icons-png/board-game.png);
     padding-left: 40px;
-    padding-right: 40px;
+    
     padding-bottom: 20px;
 }
 
 .entertainments--list__item_netflix {
     background-image: url(../img/icons-png/netflix.png);
     padding-left: 40px;
-    padding-right: 40px;
+    
     padding-bottom: 6px;
 }
 
 .entertainments--list__item_playstation {
     background-image: url(../img/icons-png/playstation.png);
     padding-left: 40px;
-    padding-right: 40px;
+    
     padding-bottom: 20px;
 }
 
@@ -89,4 +89,119 @@
 }
 .entertainments {
     padding-bottom: 120px;
+}
+
+@media (max-width:1024px) {
+    .entertainments-list {
+        gap: 30px 20px;
+    }
+    .entertainments--list__item{
+        width: 287px;
+        height: 172px;
+    }
+    .section__title_short {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        margin-bottom: 36px;
+    }
+    .entertainments--list__item_audio,
+    .entertainments--list__item_netflix {
+    transform: translateY(53px);
+}
+    .entertainments-item__text {
+        display: block;
+        width: 247px;
+    }
+    .entertainments--list__item_vr {
+        
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .entertainments--list__item_audio {
+            padding-left: 20px;
+            padding-bottom: 2px;
+    }
+    
+    .entertainments--list__item_karaoke {
+        padding-left: 20px;
+        padding-bottom: 16px;
+    }
+    
+    .entertainments--list__item_game {
+        padding-left: 20px;
+        padding-bottom: 16px;
+    }
+    
+    .entertainments--list__item_netflix {
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .entertainments--list__item_playstation {
+        padding-left: 42px;
+        padding-bottom: 16px;
+    }
+    .entertainments {
+        padding-bottom: 87px;
+    }
+}
+
+@media (max-width:768px) {
+    .section__title_short {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    .entertainments--list__item_audio,
+    .entertainments--list__item_netflix {
+    transform: translateY(0px);
+}
+.entertainments-list {
+    gap:  20px;
+}
+.entertainments--list__item_vr {
+        
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.entertainments--list__item_audio {
+        padding-left: 30px;
+        padding-bottom: 12px;
+}
+
+.entertainments--list__item_karaoke {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.entertainments--list__item_game {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.entertainments--list__item_netflix {
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+
+.entertainments--list__item_playstation {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.entertainments-item__text {
+    
+    width: 274px;
+}
+.entertainments--list__item {
+    width: 334px;
+    height: 200px;
+}
+.entertainments {
+    padding-bottom: 30px;
+}
 }

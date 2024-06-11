@@ -57,4 +57,49 @@
     color: var(--main-menu-bg);
     transition: 0.4s ease;
 }
+.header__logo-menu {
+    display: none;
+}
 
+
+@media (max-width:1024px) {
+
+    .logo__image {
+        width: 87px;
+        height: 55px;
+    }
+    .nav-list__link {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+    }
+    .header__button {
+        width: 229px;
+        height: 45px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+    .header__logo {
+        margin-right: 79px;
+    }
+    .nav-list {
+        column-gap: 20px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .header__logo-menu {
+        display: block ;
+        width: 54px;
+        height: 29px;
+        margin-right: 159px;
+    }
+    .header__nav {
+        display: none;
+    }
+    
+}

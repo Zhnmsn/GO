@@ -2,9 +2,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.reserve__form {
-    max-width: 1440px;
-}
+
 
 .section__reserve_title {
     margin-bottom: 40px;
@@ -17,9 +15,6 @@
     background-color: rgb(68, 15, 81);
 }
 
-.reserve__container {
-    width: 1180px;
-}
 
 .reserve__hall {
     display: flex;
@@ -63,6 +58,8 @@
     display: flex;
     flex-direction: column;
     border: none;
+    flex-wrap: wrap;
+    
 }
 
 .reserve__set legend {
@@ -121,7 +118,7 @@
 }
 
 .reserve__date-wrap {
-    width: 1440px;
+    
     display: flex;
     justify-content: center;
 }
@@ -309,3 +306,174 @@
     outline: 2px solid rgb(205, 6, 255);
     
 }
+
+@media (max-width:1024px)  {
+    .section__reserve_title {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    
+    .reserve__hall {
+        width: 903px;
+    }    
+    .reserve__hall legend {
+        margin-bottom: 26px;
+    }
+    .rooms__label {
+        flex-basis: 180px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .reserve__set legend {
+        margin-bottom: 26px;
+}
+.reserve__wrap, .reserve__date-wrap {
+    width: 904px;
+}
+.reserve__date legend {
+    margin-bottom: 26px;
+}
+.time__input_date {
+    width: 134px;
+    height: 52px;
+}
+.time__input_name, .time__input_lastname {
+    width: 251px;
+    height: 52px;
+}
+.time__input_phone-number, .time__input_mail {
+    width: 254px;
+    height: 52px;
+}
+.reserve__date-wrap {
+    width: 904px;
+    margin: 0 auto;
+}
+.reserve__date {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    }
+.form__button {
+    width: 254px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 24px;
+    left: 714px;
+}
+.reserve {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+}
+
+@media (max-width:768px)  {
+    .section__reserve_title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 40px;
+    }
+    
+    .reserve__hall {
+        width: 688px;
+    }    
+    .reserve__hall legend {
+        margin-bottom: 26px;
+    }
+    .rooms__label {
+        flex-basis: 150px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        height: 38px;
+    }
+    .rooms {
+        column-gap: 29px;
+
+    }
+    .reserve__set legend {
+        padding-top: 50px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+}
+.reserve__wrap, .reserve__date-wrap {
+    width: 688px;
+}
+.reserve__set {
+    width: 688px;
+    margin: 0 auto;
+}
+.reserve__console {
+    width: 301px;
+    height: 272px;
+    
+}
+.reserve__board-game {
+    width: 321px;
+    height: 272px;
+}
+.reserve__other {
+    width: 278px;
+    height: 151px;
+    
+}
+.reserve__wrap {
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.reserve__legend {
+    width: 250px;
+    height: 30px;
+}
+.reserve__set legend {
+    padding-top: 0;
+    margin-bottom: 24px;
+}
+.reserve__console label:not(:last-child) {
+    margin-bottom: 20px;
+}
+.reserve__board-game label:not(:last-child) {
+    margin-bottom: 20px;
+}
+.reserve__other label:not(:last-child) {
+    margin-bottom: 20px;
+}
+.reserve__play label {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+.reserve__date-wrap {
+    width: 687px;
+}
+.reserve__date legend {
+    margin-bottom: 30px;
+}
+.reserve__date {
+        justify-content: start;
+        flex-wrap: wrap;
+        
+        
+}
+.time__block_date {
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    align-self: flex-end;
+}
+.form__button {
+    left: 300px;
+}
+.time__block_date{
+    display: flex;
+    flex-direction: row;
+}
+}
+

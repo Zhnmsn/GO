@@ -17,7 +17,7 @@
     width: 280px;
     height: 280px;
     margin-bottom: 11px;
-    
+    background-size: cover;
 }
 .img__oksana {
     background: radial-gradient(50.00% 50.00% at 50% 50%,
@@ -25,6 +25,7 @@
     border-radius: 140px;
     width: 280px;
     height: 280px;
+    background-size: cover;
 }
 .img__nikita {
     background: radial-gradient(50.00% 50.00% at 50% 50%,
@@ -32,6 +33,7 @@
     border-radius: 140px;
     width: 280px;
     height: 280px;
+    background-size: cover;
 }
 
 .review__author {
@@ -57,5 +59,38 @@
     margin-bottom: 50px;
 }
 
-
+@media (max-width:1024px)  {
+    .review__img  {
+        width: 172px;
+        height: 172px;
+    }
+    .container__review {
+        width: 751px;
+    }
+    .review__wrapper {
+        
+        column-gap: 38px;
+    }
+    .text__description {
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 33px;
+    }
+    .review__text {
+        width: 515px;
+    }
+    .review__author  {
+        width: 224px;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: start;
+        padding-left: 15px;
+    }
+    .review__author_nikita {
+        padding-left: 22px;
+    }
+    .review__wrapper:not(:last-child) {
+        margin-bottom: 40px;
+    }
+}
 

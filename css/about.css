@@ -13,6 +13,10 @@
     line-height: 28px;
     margin-bottom: 35px;
 }
+.about__image {
+    width: 600px;
+    height: 596px;
+}
 
 .about__description:nth-child(2) {
     margin-bottom: 48px;
@@ -64,6 +68,10 @@
     line-height: 28px;
     text-wrap: balance;
 }
+.owner__avatar {
+    width: 80px;
+    height: 80px;
+}
 
 .owner__description__uppercase {
     text-transform: uppercase;
@@ -71,4 +79,66 @@
 
 #about {
     padding-top: 50px;
+}
+
+@media (max-width:1024px)  {
+    .container {
+        width: 904px;
+    }
+    .section__title_about {
+        margin-bottom: 26px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .about__image {
+        width: 420.46px;
+        height: 417.66px;
+    }
+    .about__description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .about__wrapper {
+        column-gap: 40px;
+    }
+    .about__description:nth-child(2) {
+        margin-bottom: 37px;
+    }
+    .about__blockquote {
+        margin-bottom: 13px;
+    }
+    .quote {
+        font-size: 30px;
+        line-height: 36px;
+        padding-left: 31px;
+        padding-bottom: 13px;
+        padding-right: 0;
+    }
+    .quote:before {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+    .quote:after {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+    .owner__avatar {
+        width: 70px;
+        height: 70px;
+    }
+    .owner__description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .owner {
+        column-gap: 35px;
+    }
+    #about {
+        padding-top: 70px;
+    }
 }

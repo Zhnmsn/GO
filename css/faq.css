@@ -56,3 +56,32 @@
 .faq {
     padding-bottom: 45px;
 }
+
+@media (max-width:1024px) {
+    .section__faq_title {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 26px;
+    }
+    .question  {
+        width: 904px;
+        height: 70px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .container__faq {
+        width: 904px;
+    }
+    .faq__questions :nth-child(even) {
+        content: "";
+        background-image: url("../img/icons-svg/circle-purple.svg") ;
+        background-repeat: no-repeat;
+        background-position: 95%;
+        background-size: 4%;
+        background-color:  white;
+        color: rgb(28, 26, 26);
+}
+}

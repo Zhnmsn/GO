@@ -111,3 +111,25 @@ section .container {
 address {
     font-style: normal;
 }
+@media (max-width:1024px) {
+    .container {
+        max-width: 904px;
+    }
+    
+    .container-max {
+        max-width: 1024px;
+    }
+    .section {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+@media (max-width:768px) {
+    .container {
+        max-width: 688px;
+    }
+    
+    .container-max {
+        max-width: 768px;
+    }
+}
