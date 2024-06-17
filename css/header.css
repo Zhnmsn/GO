@@ -97,9 +97,42 @@
         width: 54px;
         height: 29px;
         margin-right: 159px;
+        background-image: url(../img/icons-png/menu-header.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .header__nav {
         display: none;
     }
-    
+    .header__logo-menu:hover {
+        background-image: url(../img/icons-png/menu-hover.png);
+    }
+    .header__logo-menu:focus {
+        
+        border: 1px solid rgb(205, 6, 255);
+        transition: 0.3s;
+    }
+}
+@media (max-width:320px) {
+    .header__button {
+        display: none;
+    }
+    .header__row {
+        justify-content: space-between;
+    }
+    .header {
+        padding-top: 20px;
+    }
+    .header__logo-menu {
+        width: 39px;
+        height: 20px;
+        margin-right: 0;
+    }
+    .logo__image {
+        width: 66px;
+        height: 42px;
+    }
+    .header__logo {
+        margin-right: 0;
+    }
 }

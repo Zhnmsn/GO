@@ -14,8 +14,9 @@
 #reserve {
     background-color: rgb(68, 15, 81);
 }
-
-
+.time__input_persons-m {
+    display: none;
+}
 .reserve__hall {
     display: flex;
     width: 1180px;
@@ -115,6 +116,7 @@
     border: none;
     background-color: var(--main-color);
     left: 920px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.6);
 }
 
 .reserve__date-wrap {
@@ -144,7 +146,7 @@
     align-items: center;
     flex-basis: 250px;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 .time {
     justify-content: space-between;
@@ -159,9 +161,7 @@
     display: block;
 }
 
-.time__input {
-    display: block;
-}
+
 
 .time__block {
     display: flex;
@@ -459,21 +459,142 @@
 .reserve__date {
         justify-content: start;
         flex-wrap: wrap;
-        
-        
+        column-gap: 105px;
 }
 .time__block_date {
     flex-direction: column;
     flex-wrap: wrap;
-    column-gap: 20px;
+    column-gap: 40px;
     align-self: flex-end;
 }
+
+.time__input-row-group {
+    column-gap: 0px;
+}
+.time__input_phone-number, .time__input_mail {
+    width: 300px;
+}
+.time__input_persons {
+    display: none;
+}
+.time__input_persons-m {
+    display: block;
+    width: 300px;
+    margin-left: 78px;
+}
+.time__input_date {
+    margin-right: 20px;
+}
+.time__input_name, .time__input_lastname {
+    width: 280px;
+}
+
 .form__button {
-    left: 300px;
+    left: 427px;
+    width: 300px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
 }
 .time__block_date{
     display: flex;
     flex-direction: row;
 }
+.time__input_persons-m {
+    background-image: url(../img/icons-svg/triangle.svg);
+    background-position: 270px;
+    height: 52px;
+    display: block;
+    background-repeat: no-repeat;
+    color: var(--main-dark);
+    appearance: none;
+    padding-left: 10px;
+}
 }
 
+@media (max-width:320px) {
+    .time__input_persons-m {
+        display: none;
+    }
+    .time__input_persons {
+        display: block;
+    }
+    .section__reserve_title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0%;
+        margin-bottom: 13px;
+    }
+    .reserve__hall {
+        width: 288px;
+        
+    }    
+    .reserve__hall legend {
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    .rooms__label {
+        flex-basis: 130px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        height: 30px;
+        border-radius: 4px;
+        
+    }
+    .reserve__hall {
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 14px;
+        margin-bottom: 30px;
+    }
+
+    .reserve__set legend {
+        padding-top: 0px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0%;
+}
+.reserve__wrap, .reserve__date-wrap {
+    width: 288px;
+}
+.reserve__set {
+    width: 280px;
+    margin: 0 auto;
+}
+.form__button {
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 26px;
+    left: 20px;
+    border-radius: 4px;
+}
+.time__input_lastname, .time__input_phone-number,
+.time__input_mail, .time__input_name, time__input_persons {
+    width: 280px;
+    height: 52px;
+    padding-left: 20px;
+}
+.time__label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+.time__input_persons {
+    background-position: 253px;
+    width: 280px;
+}
+.reserve {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+}

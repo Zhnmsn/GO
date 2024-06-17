@@ -39,7 +39,7 @@
     height: 349px;
     width: 580px;
     background-image: url("../img/neon-hall.jpg");
-    background-size: cover;
+    background-size: contain;
     text-align: center;
 }
 
@@ -112,5 +112,34 @@
     }
     #halls {
         padding-bottom: 63px;
+        }
+}
+@media (max-width:320px) {
+    .halls {
+        padding-top: 30px;
+    }
+    .section__halls_title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0%;
+        margin-bottom: 15px;
+    }
+    .section__halls_one, .section__halls_two,
+    .section__halls_three, .section__halls_four {
+        width: 280px;
+        height: 168px;
+        row-gap: 10px;
+    }
+    .halls__link {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0%;
+        top: 28%;
+        width: 79px;
+    }
+    #halls {
+        padding-bottom: 30px;
         }
 }

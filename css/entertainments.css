@@ -205,3 +205,57 @@
     padding-bottom: 30px;
 }
 }
+@media (max-width:320px) {
+    .section__title_short {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    
+.entertainments-list {
+    gap:  10px;
+}
+.entertainments--list__item_vr {
+        
+    padding-left: 10px;
+    padding-bottom: 31px;
+}
+
+.entertainments--list__item_audio {
+        padding-left: 10px;
+        padding-bottom: 17px;
+}
+
+.entertainments--list__item_karaoke {
+    padding-left: 10px;
+    padding-bottom: 17px;
+}
+
+.entertainments--list__item_game {
+    padding-left: 10px;
+    padding-bottom: 31px;
+}
+
+.entertainments--list__item_netflix {
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+.entertainments--list__item_playstation {
+    padding-left: 10px;
+    padding-bottom: 31px;
+}
+.entertainments-item__text {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0%;
+    width: 115px;
+}
+.entertainments--list__item {
+    width: 135px;
+    height: 75px;
+}
+
+}

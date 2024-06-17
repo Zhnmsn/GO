@@ -4,7 +4,7 @@
 }
 
 .review__wrapper {
-    width: 980px;
+    max-width: 980px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +58,9 @@
 .review__wrapper:not(:last-child) {
     margin-bottom: 50px;
 }
+.review__author-down {
+    display: none;
+}
 
 @media (max-width:1024px)  {
     .review__img  {
@@ -65,10 +68,9 @@
         height: 172px;
     }
     .container__review {
-        width: 751px;
+        max-width: 751px;
     }
     .review__wrapper {
-        
         column-gap: 38px;
     }
     .text__description {
@@ -94,3 +96,78 @@
     }
 }
 
+@media (max-width:768px)  {
+    .container__review {
+        max-width: 688px;
+    }
+    .section__title_review {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 31px;
+    }
+    .review__img  {
+        width: 153px;
+        height: 153px;
+        margin-bottom: 17px;
+    }
+    .review__text {
+        width: 393px;
+    }
+    .text__description {
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 30px;
+    }
+    .review__author  {
+        width: 156px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 15px;
+    }
+    .review__wrapper {
+        column-gap: 15px;
+    }
+    .review__wrapper:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:320px)  {
+    .container__review {
+        max-width: 288px;
+    }
+    .section__title_review {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .review__img  {
+        width: 86px;
+        height: 86px;
+        margin-bottom: 9px;
+    }
+    .review__text {
+        width: 280px;
+    }
+    .text__description {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0;
+    }
+    .review__author {
+        display: none;
+    }
+    .review__author-down {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .review__wrapper {
+        justify-content: center;
+    }
+
+}
