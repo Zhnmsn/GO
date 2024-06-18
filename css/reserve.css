@@ -62,6 +62,9 @@
     flex-wrap: wrap;
     
 }
+.reserve__board-game_input, .reserve__console_input, .reserve__other_input {
+    vertical-align: middle;
+}
 
 .reserve__set legend {
     text-align: center;
@@ -160,7 +163,9 @@
     line-height: 16px;
     display: block;
 }
-
+.rooms__label:checked  {
+    border: 10px solid red;
+}
 
 
 .time__block {
@@ -276,6 +281,10 @@
     border: 3px solid #640AA3;
     transition: 0.3s;
 }
+.rooms__label:checked {
+    border: 10px solid #640AA3;
+}
+
 
 .form__button:hover {
     background: #EADEED;
@@ -306,7 +315,14 @@
     outline: 2px solid rgb(205, 6, 255);
     
 }
-
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+input[type="radio"] {
+    width: 27px;
+    height: 27px;
+}
 @media (max-width:1024px)  {
     .section__reserve_title {
         font-size: 30px;
@@ -368,6 +384,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 }
 
 @media (max-width:768px)  {
@@ -410,17 +427,18 @@
     margin: 0 auto;
 }
 .reserve__console {
-    width: 301px;
-    height: 272px;
-    
+    max-width: 301px;
+    height: auto;
+    margin-right: 66px;
+    margin-bottom: 32px
 }
 .reserve__board-game {
-    width: 321px;
-    height: 272px;
+    max-width: 321px;
+    height: auto;
 }
 .reserve__other {
-    width: 278px;
-    height: 151px;
+    max-width: 278px;
+    height: auto;
     
 }
 .reserve__wrap {
@@ -510,6 +528,20 @@
     appearance: none;
     padding-left: 10px;
 }
+input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+}
+input[type="radio"] {
+    width: 40px;
+    height: 40px;
+}
+.reserve {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 }
 
 @media (max-width:320px) {
@@ -527,7 +559,7 @@
         margin-bottom: 13px;
     }
     .reserve__hall {
-        width: 288px;
+        max-width: 288px;
         
     }    
     .reserve__hall legend {
@@ -561,10 +593,10 @@
         letter-spacing: 0%;
 }
 .reserve__wrap, .reserve__date-wrap {
-    width: 288px;
+    max-width: 288px;
 }
 .reserve__set {
-    width: 280px;
+    max-width: 280px;
     margin: 0 auto;
 }
 .form__button {
@@ -576,7 +608,7 @@
     border-radius: 4px;
 }
 .time__input_lastname, .time__input_phone-number,
-.time__input_mail, .time__input_name, time__input_persons {
+.time__input_mail, .time__input_name {
     width: 280px;
     height: 52px;
     padding-left: 20px;
@@ -596,5 +628,33 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
 }
+input[type="radio"] {
+    width: 30px;
+    height: 30px;
+}
+.reserve__console {
+    margin-right: 0;
+    margin-bottom: 25px
+}
+.reserve__board-game {
+    margin-bottom: 25px;
+}
+.time__block {
+    display: flex;
+    justify-content: center;
+}
+.reserve__date {
+    justify-content: center;
+}
+.group {
+    padding-left: 10px;
+}
+.time__input-row-group {
+    padding-left: 20px;
+}
+}
+

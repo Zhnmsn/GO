@@ -85,6 +85,9 @@
 .quastions-five {
     display: none;
 }
+.faq {
+    padding-bottom: 35px;
+}
 }
 @media (max-width:768px)  {
     .section__faq_title {

@@ -78,7 +78,7 @@
 }
 
 #about {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .about__image-small, .about__image-down {
     display: none;
@@ -205,6 +205,9 @@
     .owner__description__uppercase {
         font-size: 18px;
     }
+    #about {
+        padding-top: 60px;
+    }
 }
 @media (max-width:320px) {
     .section__title_about {
@@ -279,5 +282,8 @@
     }
     .owner__description__uppercase {
         font-size: 12px;
+    }
+    #about {
+        padding-top: 30px;
     }
 }

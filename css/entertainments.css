@@ -203,6 +203,7 @@
 }
 .entertainments {
     padding-bottom: 30px;
+    padding-top: 40px;
 }
 }
 @media (max-width:320px) {
@@ -256,6 +257,10 @@
 .entertainments--list__item {
     width: 135px;
     height: 75px;
+}
+.entertainments {
+    padding-bottom: 15px;
+    padding-top: 23px;
 }
 
 }
