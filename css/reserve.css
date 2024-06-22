@@ -107,7 +107,6 @@
 
 .form__button {
     display: inline-block;
-    position: relative;
     width: 300px;
     height: 60px; 
     border-radius: 10px;
@@ -118,8 +117,12 @@
     text-transform: uppercase;
     border: none;
     background-color: var(--main-color);
-    left: 920px;
     box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.6);
+}
+.form__last-block {
+    width: 990px;
+    margin: 0 auto;
+    text-align: end;
 }
 
 .reserve__date-wrap {
@@ -150,6 +153,7 @@
     flex-basis: 250px;
     justify-content: center;
     flex-wrap: wrap;
+    flex-shrink: 1;
 }
 .time {
     justify-content: space-between;
@@ -323,6 +327,23 @@ input[type="radio"] {
     width: 27px;
     height: 27px;
 }
+@media (max-width:1280px) {
+    .rooms__label {
+        flex-basis: 200px;
+    }
+    .reserve__hall {
+        width: 1000px;
+    }
+}
+@media (max-width:1084px) {
+    .reserve__set {
+        max-width: max-content;
+    }
+    .reserve__wrap {
+        width: 900px;
+    }
+}
+
 @media (max-width:1024px)  {
     .section__reserve_title {
         font-size: 30px;
@@ -378,13 +399,66 @@ input[type="radio"] {
     height: 50px;
     font-size: 18px;
     line-height: 24px;
-    left: 714px;
 }
 .reserve {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.form__last-block {
+    width: 904px;
+}
+.reserve__wrap {
+    width: 840px;
+}
 
+}
+@media (max-width:910px) {
+   .reserve__date-wrap {
+    width: 700px;
+   }
+   
+}
+@media (max-width:895px) {
+    .reserve__hall {
+        width: 800px;
+    }
+}
+@media (max-width:800px)  {
+    .reserve__hall {
+        width: 740px;
+    }
+    .reserve__wrap {
+        width: 800px;
+    }
+    
+}
+
+@media (max-width:815px) {
+    .reserve__wrap {
+        width: 800px;
+    }
+}
+@media (max-width:910px) {
+    
+    .form__last-block {
+        width: 100%;
+    }
+    .reserve__wrap, .reserve__date-wrap {
+        width: 788px;
+    }
+    .reserve__wrap {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .reserve__date {
+        column-gap: 10px;
+    }
+}
+@media (max-width:830px)  {
+.time__input_lastname, .time__input_name,
+ .time__input_phone-number, .time__input_mail {
+    width: 200px;
+}
 }
 
 @media (max-width:768px)  {
@@ -508,7 +582,6 @@ input[type="radio"] {
 }
 
 .form__button {
-    left: 427px;
     width: 300px;
     font-size: 22px;
     font-weight: 700;
@@ -540,9 +613,121 @@ input[type="radio"] {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-
+.form__last-block {
+    width: 688px;
 }
+}
+@media (max-width:690px) {
+    .rooms__label {
+        flex-basis: 130px;
+        font-size: 14px;
+    }
+    .reserve__hall {
+        width: 500px;
+    }
+            .time__input_lastname, .time__input_name,
+            .time__input_phone-number, .time__input_mail {
+            width: 230px;
+        }    
+        .reserve__date {
+            column-gap: 20px;
+            width: 500px;
+            }
+        .form__last-block {
+            width: 1em;
+        }
+        .time__input_persons-m {
+            width: 230px;
+            margin-left: 38px;
+            background-position: 197px;
+            }
+        .time__input_date  {
+            width: 90px;
+            margin-right: 20px;
+        }
+        .reserve__wrap, .reserve__date-wrap {
+            width: 500px;
+        }
+        .time__input::placeholder {
+            font-size: 14px;
+        }
+       
+}
+@media (max-width:580px) {
+    .reserve__console {
+        margin-right: 0;
+    }
+        .reserve__set {
+        max-width: 90%;
+        }
+        .reserve__wrap {
+            width: 440px;
+        }
+        .time__input_lastname, .time__input_name,
+        .time__input_phone-number, .time__input_mail {
+           width: 230px;
+       }   
+       .time__input_persons-m {
+        display: none;
+    }
+    .time__input_persons {
+        display: block;
+    }
+    .time__input_persons {
+        width: 230px;
+        background-position: 197px;
+    } 
+    .form__last-block {
+        width: 300px;
+        text-align: center;
+    }
+    .reserve__date legend {
+        font-size: 20px;
+        text-align: start;
+    }
+    .form__button {
+        width: 200px;
+        font-size: 20px;
+    }
+    .reserve__wrap, .reserve__date-wrap {
+        width: 340px;
+    }
+}
+@media (max-width:500px) {
+    .reserve__set legend {
+        font-size: 20px;
+    }
+    .reserve__hall {
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 14px;
+        margin-bottom: 30px;
+        height: 150px;
+        max-width: 90%;
+    }
+    .rooms__label {
+        flex-basis: 130px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        height: 30px;
+        border-radius: 4px;
+            }
+            .form__last-block {
+                width: 408px;
+                text-align: center;
+            }
+}
+@media (max-width:400px) {
+    .reserve__set legend {
+        font-size: 15px;
+        }
+        .form__last-block {
+            width: 250px;
+            
+        }
+}
+
 
 @media (max-width:320px) {
     .time__input_persons-m {
@@ -560,7 +745,6 @@ input[type="radio"] {
     }
     .reserve__hall {
         max-width: 288px;
-        
     }    
     .reserve__hall legend {
         margin-bottom: 15px;
@@ -656,5 +840,14 @@ input[type="radio"] {
 .time__input-row-group {
     padding-left: 20px;
 }
+.form__last-block {
+    width: 280px;
+}
+.time__input_date  {
+    width: 134px;
+    }
+    .time__input::placeholder {
+        font-size: 20px;
+    }
 }
 

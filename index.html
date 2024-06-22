@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="image/svg+xml" rel="icon" href="img/icons/icon.svg">
+    <link type="image/svg+xml" rel="icon" href="img/icons-svg/icon.svg">
     <title>GAME OVER</title>
     <link rel="stylesheet" href="css/style.css">
     <script> 
@@ -108,7 +108,7 @@
             <h1 class="section__title section__halls_title"> Наши залы</h1>
             <div class="section__halls">
                 <div class="section__halls_one">
-                    <a class="halls__link" href="80s-vibes.html"> 80's vibes</a>
+                    <a class="halls__link " href="80s-vibes.html">  80's vibes</a>
                 </div>
                 <div class="section__halls_two">
                     <a class="halls__link" href="star-wars.html"> Star wars </a>
@@ -233,7 +233,9 @@
                         </div>
                     </fieldset>
                 </div>
+                <div class="form__last-block"> 
                         <button class="form__button" type="submit">Забронировать</button>
+                </div>
                 </form>
         </div>
     </section>
@@ -281,41 +283,30 @@
 
             <div class="review__list"> 
                 <div class="review__wrapper">
-                <div class="review__img img__max">  
-                </div>
-                <div class="review__text text"> 
-                    <p class="review__author-down"> Макс Самойлов</p> 
-                    <p class="text__description"> Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба,
-                    никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p> 
-                </div>
-                <p class="review__author"> Макс Самойлов</p> 
+                    <figure > <img class="review__people-first review__ava" src="img/man1.jpg"> 
+                        <figcaption class="review__about"> Макс Самойлов</figcaption>
+                    </figure>
+                        <p class="text__description"> Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба,
+                        никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p> 
                 </div>
 
                 <div class="review__wrapper">
-                    <div class="review__img img__oksana">  
-                    </div>
-                    <div class="review__text text"> 
-                        <p class="review__author-down"> Оксана Григорьева</p> 
+                    <figure > <img class="review__people-second review__ava" src="img/man2.jpg"> 
+                        <figcaption class="review__about"> Оксана Григорьева</figcaption>
+                    </figure>      
+                        
                         <p class="text__description"> Были в комнате Дикий Запад, пели в караоке под Шакиру,
-                                отличный получился корпоратив!
-                                У нас в городе больше нет подобных заведений</p> 
-                    </div>
-                    <p class="review__author"> Оксана Григорьева</p> 
-                    </div>
-
-                    <div class="review__wrapper">
-                        <div class="review__img img__nikita">  
-                        </div>
-                        <div class="review__text text"> 
-                            <p class="review__author-down review__author_nikita-down">Никита Ященко</p> 
+                                отличный получился корпоратив! У нас в городе больше нет подобных заведений</p> 
+                </div>
+                    
+                <div class="review__wrapper">
+                        <figure > <img class="review__people-third review__ava" src="img/man3.jpg"> 
+                            <figcaption class="review__about"> Никита Ященко</figcaption>
+                        </figure> 
+                            
                             <p class="text__description"> Немного подвисала игра в VR очках, а так все норм. 
                                 Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p> 
-                        </div>
-                        <p class="review__author review__author_nikita">Никита Ященко</p> 
-                        </div>
-
-
-
+                </div>
             </div>
         
         </div>
@@ -341,10 +332,11 @@
         <div class="footer__row">
             <address class="footer__address">
                 <ul class="footer__contacts">
-                    <li class="footer__locate"><span>г. Москва</span>
-                        <span>ул. Усачёва, 29к3</span></li>
-                    <li class="footer__phone"><a href="tel:89509302893">8 (950) 930-28-93</a></li>
-                    <li class="footer__mail"><a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></li>
+                    <li class="footer__locate">
+                        <span class="footer__min" >  <img class="footer__mini-icons footer__mini-icons-first"  src="img/icons-svg/location.svg" alt="location"> г. Москва</span>
+                        <span class="footer__locate-street">ул. Усачёва, 29к3</span></li>
+                    <li class="footer__phone"> <img class="footer__mini-icons"  src="img/icons-svg/phone-call.svg" alt="phone"> <a href="tel:89509302893">8 (950) 930-28-93</a></li>
+                    <li class="footer__mail"> <img class="footer__mini-icons"  src="img/icons-svg/mail.svg" alt="mail"> <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></li>
                 </ul>
                 <ul class="footer__icons">
                     <li>

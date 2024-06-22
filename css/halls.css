@@ -2,13 +2,13 @@
 .halls__link {
     display: inline-block;
     position: relative;
-    width: 252px;
+    width: 580px;
     font-weight: 700;
     font-size: 70px;
     text-transform: uppercase;
     line-height: 80px;
-    top: 28%;
     text-align: center;
+    padding: 94px 164px;
 }
 
 .section__halls {
@@ -19,12 +19,14 @@
     column-gap: 20px;
 }
 
+
 .section__halls_one {
     text-align: center;
     height: 349px;
     width: 580px;
     background-image: url("../img/80s-vibes-hall.jpg");
     background-size: cover;
+    position: relative;
 }
 
 .section__halls_three {
@@ -81,7 +83,8 @@
         font-size: 50px;
         font-weight: 700;
         line-height: 60px;
-        top: 28%;
+        width: 441px;
+        padding: 72px 120px;
     }
     #halls {
     padding-bottom: 70px;
@@ -110,8 +113,8 @@
         font-size: 40px;
         font-weight: 700;
         line-height: 50px;
-        top: 28%;
-        width: 129px;
+        width: 330px;
+        padding: 50px 90px;
     }
     #halls {
         padding-bottom: 63px;
@@ -139,8 +142,8 @@
         font-weight: 700;
         line-height: 34px;
         letter-spacing: 0%;
-        top: 28%;
-        width: 79px;
+        width: 280px;
+        padding: 50px 90px;
     }
     #halls {
         padding-bottom: 30px;

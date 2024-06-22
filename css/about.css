@@ -71,6 +71,7 @@
 .owner__avatar {
     width: 80px;
     height: 80px;
+    border-radius: 50%;
 }
 
 .owner__description__uppercase {
@@ -83,7 +84,13 @@
 .about__image-small, .about__image-down {
     display: none;
 }
-
+@media (max-width:1134px) {
+    .about__image {
+        width: 500px;
+        height: 506px;
+    }
+    
+}
 @media (max-width:1024px)  {
     
     .section__title_about {
@@ -209,6 +216,23 @@
         padding-top: 60px;
     }
 }
+@media (max-width:700px) {
+    .about__image-small {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:558px) {
+    .about__info {
+        text-align: center;
+    }
+    .about__image-small {
+        margin: 0 auto;
+        float: none;
+    }
+    
+}
+
 @media (max-width:320px) {
     .section__title_about {
         margin-bottom: 15px;
